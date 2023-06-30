@@ -130,6 +130,13 @@ img {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 750px;
+    width: auto;
+    max-width: 750px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .steps {
+    max-width: 768px;
   }
 }
